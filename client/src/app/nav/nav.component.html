@@ -28,7 +28,7 @@
     <div class="d-flex dropdown" *ngIf="(accountService.currentUser$ | async) as user" dropdown>
       <a type="button" class="dropdown-toggle text-light" dropdownToggle>Welcome {{user.userName | titlecase}}</a>
       <div class="dropdown-menu mt-3" *dropdownMenu>
-        <a class="dropdown-item" href="#">Edit Profile</a>
+        <a routerLink="/member/edit" class="dropdown-item" href="#">Edit Profile</a>
         <div class="dropdown-provider"></div>
         <a class="dropdown-item" href="#" (click)="logout()">Logout</a>
       </div>
