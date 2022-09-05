@@ -10,6 +10,7 @@
   },
   "private": true,
   "dependencies": {
+    "2": "^3.0.0",
     "@angular/animations": "~12.2.0",
     "@angular/cdk": "^10.2.7",
     "@angular/common": "~12.2.0",
@@ -26,6 +27,7 @@
     "ng2-file-upload": "^1.4.0",
     "ngx-bootstrap": "^7.1.2",
     "ngx-spinner": "^12.0.0",
+    "ngx-timeago": "^2.0.0",
     "ngx-toastr": "^13.2.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
